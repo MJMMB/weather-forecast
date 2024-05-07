@@ -22,16 +22,7 @@ function tela(dados) {
       
 }
 
-window.addEventListener("DOMContentLoaded", function() {
-    let mensagem = document.getElementById("mensagem");
-  
-    if (typeof dados.message === "undefined") {
-      mensagem.classList.remove("hidden");
-      setTimeout(function() {
-        mensagem.classList.add("fade-out");
-      }, 2000);
-    }
-    });
+
         
        
 
