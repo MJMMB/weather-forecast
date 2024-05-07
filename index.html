@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo no mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="caixa">
+
+        <div class="caixa-media">
+
+            <input class="cidade" placeholder="digite a cidade aqui">
+
+            <button onclick="clicarnobotao()">
+                <img class="lupa" src="https://www.svgrepo.com/show/418797/explore-find-glass.svg">
+
+            </button>
+
+            <div class="caixa-pequena">
+
+                <h2 class="tempo">Tempo em </h2>
+
+                <p class="temp">°C</p>
+
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+
+                <p class="Humidade">Humidade: 90%</p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="mensagem" class="hidden">
+        <img class="warning"
+            src="https://static.vecteezy.com/system/resources/previews/017/178/212/non_2x/warning-hazard-sign-on-transparent-background-free-png.png">
+        ops! Parece que essa cidade não existe, tente novamente.
+
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
