@@ -102,20 +102,3 @@ button:hover {
     animation: fadeOut 3s linear forwards;
 }
 
-@keyframes fadeOut {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-
-
-.warning{
-    height: 40px;
-    width: 40px;
-    border: none;
-    float: right;
-    
-}
